@@ -3,7 +3,8 @@ const colors = {
   navy500: '#C0C4CC',
   navy600: '#898E9A',
   black: '#000000',
-  white: '#ffffff'
+  white: '#ffffff',
+  orange: '#f9b515'
 };
 
 export default colors;
