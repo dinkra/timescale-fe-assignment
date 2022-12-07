@@ -6,20 +6,20 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-ksluID kmqoNr"
+        class="sc-hBMUJo JyzcU"
       >
         <div
-          class="sc-hBMUJo buUdH"
+          class="sc-fnVZcZ hBCxHt"
           data-testid="movie-rating"
         >
           6.5
         </div>
         <div
-          class="sc-fnVZcZ dSOTtm"
+          class="sc-fFSPTT iWZoag"
           data-testid="movie-img"
         />
         <div
-          class="sc-fFSPTT jNOudu"
+          class="sc-bkbkJK bcPfkA"
           data-testid="movie-title"
         >
           X-Men: Apocalypse
@@ -29,20 +29,20 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-ksluID kmqoNr"
+      class="sc-hBMUJo JyzcU"
     >
       <div
-        class="sc-hBMUJo buUdH"
+        class="sc-fnVZcZ hBCxHt"
         data-testid="movie-rating"
       >
         6.5
       </div>
       <div
-        class="sc-fnVZcZ dSOTtm"
+        class="sc-fFSPTT iWZoag"
         data-testid="movie-img"
       />
       <div
-        class="sc-fFSPTT jNOudu"
+        class="sc-bkbkJK bcPfkA"
         data-testid="movie-title"
       >
         X-Men: Apocalypse

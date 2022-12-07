@@ -44,6 +44,7 @@ const Modal = ({ isVisible, toggleVisibility, children }) => {
       document.removeEventListener('keydown', onKeyDown, false);
       document.body.style.removeProperty('overflow');
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isVisible]);
 
   const modalElement = (

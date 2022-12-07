@@ -1,4 +1,4 @@
-import { render, screen } from '../../../tools/renderWithProviders';
+import { render } from '../../../tools/renderWithProviders';
 
 import MovieDetails from '../MovieDetails';
 

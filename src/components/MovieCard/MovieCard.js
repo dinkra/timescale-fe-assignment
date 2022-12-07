@@ -74,8 +74,9 @@ const MovieCard = ({ movie }) => {
     toggleVisibility();
   };
 
+  const imageDomain = process.env.REACT_APP_API_BASE_IMAGE_URL;
   const imgPath = movie.poster_path
-    ? `https://image.tmdb.org/t/p/original/${movie.poster_path}`
+    ? `${imageDomain}/${movie.poster_path}`
     : 'https://via.placeholder.com/500x750?text=No Image';
   return (
     <>
