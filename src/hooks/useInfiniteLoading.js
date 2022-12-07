@@ -4,7 +4,8 @@ const useInfiniteLoading = (ref, callback) => {
   const callbackRef = useRef();
 
   useEffect(() => {
-    callbackRef.current = callback; // Update ref to the latest callback.
+    // Update ref to the latest callback
+    callbackRef.current = callback;
   }, [callback]);
 
   const handleObserver = useCallback((entries) => {
@@ -17,7 +18,7 @@ const useInfiniteLoading = (ref, callback) => {
   useEffect(() => {
     const option = {
       root: null,
-      rootMargin: '20px',
+      rootMargin: '100px',
       threshold: 0
     };
     const observer = new IntersectionObserver(handleObserver, option);

@@ -7,7 +7,10 @@ const POPULAR_MOVIES = `${domain}/movie/popular?api_key=${api_key}&language=en-U
 const SEARCH_MOVIE = `${domain}/search/movie?api_key=${api_key}&language=en-US&include_adult=false`;
 
 const execute = (method, endpoint, data = {}, config = {}, headers = {}) => {
-  const defaultHeaders = {};
+  const defaultHeaders = {
+    Accept: 'application/json',
+    'Content-Type': 'application/json'
+  };
 
   return axios({
     method,

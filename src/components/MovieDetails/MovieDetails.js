@@ -4,27 +4,9 @@ import styled from 'styled-components';
 import formatDate from '../../helpers/formatDate';
 
 // components
-// import { Typography } from '../../components';
-// const { H4, Body } = Typography;
+import { H4, Body } from '../Typography/Typography';
 
 // styles
-const H4 = styled.h4`
-  margin: 0;
-  font-family: inherit;
-  font-weight: 700;
-  font-size: ${({ theme }) => theme.fontSizeLarge};
-
-  color: ${({ theme }) => theme.black};
-`;
-
-const Body = styled.div`
-  font-family: inherit;
-  font-weight: ${({ bold }) => (bold ? 700 : 400)};
-  font-size: ${({ theme }) => theme.fontSizeNormal};
-
-  color: ${({ theme }) => theme.black};
-`;
-
 const StyledHeader = styled(H4)`
   margin-bottom: 16px;
 `;

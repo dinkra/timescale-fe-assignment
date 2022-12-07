@@ -96,11 +96,11 @@ const Home = () => {
     getMovies(api.getMovies, 1, '', []);
   }, []);
 
-  const infiniteLoadingCallback = async () => {
-    console.log(loading, page, totalPages);
-    if (loading || page > totalPages) return;
+  const infiniteLoadingCallback = () => {
+    if (loading || page === totalPages) return;
     const nextPage = page + 1;
     setPage(nextPage);
+    // if query is not empty we call search api
     const apiCall = query ? api.searchMovie : api.getMovies;
     getMovies(apiCall, nextPage, query, movies);
   };
@@ -110,6 +110,7 @@ const Home = () => {
   const handleSearch = (e) => {
     if (e.key === 'Enter') {
       const value = e.target.value;
+      // set movies list to empty in order to show nice loader to the user
       setMovies([]);
       setQuery(value);
       setPage(1);
@@ -134,12 +135,13 @@ const Home = () => {
             ))}
           </StyledList>
         )}
+        {!loading && !error && movies.length === 0 && `No results found for '${query}'.`}
         {loading && (
           <StyledLoader>
             <Loader />
           </StyledLoader>
         )}
-        {error && <StyledError>Ooops.. something went wrong. Please try later!</StyledError>}
+        {error && <StyledError>Ooops.. something went wrong. Please try again later!</StyledError>}
       </StyledContainer>
       <div ref={loader} />
     </>

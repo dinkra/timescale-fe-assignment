@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should match snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-fFSPTT GFmph"
+      >
+        <header
+          class="sc-bkbkJK fjyFEk"
+        >
+          <img
+            alt="Timescale"
+            height="36"
+            src="logo.svg"
+            width="136"
+          />
+          <div
+            class="sc-bdnxRM kVsjvj"
+          >
+            <div
+              class="sc-gtsrHT dClIzB"
+            >
+              <svg
+                fill="none"
+                height="15"
+                viewBox="0 0 15 15"
+                width="15"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.16666 0.666656C3.12909 0.666656 0.666656 3.12909 0.666656 6.16666C0.666656 9.20422 3.12909 11.6667 6.16666 11.6667C7.5054 11.6667 8.73244 11.1883 9.68618 10.3933L13.4798 14.1869C13.675 14.3821 13.9916 14.3821 14.1869 14.1869C14.3821 13.9916 14.3821 13.675 14.1869 13.4798L10.3933 9.68618C11.1883 8.73244 11.6667 7.5054 11.6667 6.16666C11.6667 3.12909 9.20422 0.666656 6.16666 0.666656ZM1.66666 6.16666C1.66666 3.68138 3.68138 1.66666 6.16666 1.66666C8.65194 1.66666 10.6667 3.68138 10.6667 6.16666C10.6667 8.65194 8.65194 10.6667 6.16666 10.6667C3.68138 10.6667 1.66666 8.65194 1.66666 6.16666Z"
+                  fill="#898E9A"
+                />
+              </svg>
+            </div>
+            <input
+              class="sc-dlnjwi fRoYwN"
+              placeholder="Search for a movie"
+            />
+          </div>
+        </header>
+        <h3
+          class="sc-kEqXSa sc-iemWCZ czRZWT krnxPw"
+        >
+          Most Recent Movies
+        </h3>
+        <div
+          class="sc-hHEiqL bPSOgg"
+        >
+          <div
+            class="sc-hKFxyN fvuAxH"
+          />
+        </div>
+      </div>
+      <div />
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-fFSPTT GFmph"
+    >
+      <header
+        class="sc-bkbkJK fjyFEk"
+      >
+        <img
+          alt="Timescale"
+          height="36"
+          src="logo.svg"
+          width="136"
+        />
+        <div
+          class="sc-bdnxRM kVsjvj"
+        >
+          <div
+            class="sc-gtsrHT dClIzB"
+          >
+            <svg
+              fill="none"
+              height="15"
+              viewBox="0 0 15 15"
+              width="15"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.16666 0.666656C3.12909 0.666656 0.666656 3.12909 0.666656 6.16666C0.666656 9.20422 3.12909 11.6667 6.16666 11.6667C7.5054 11.6667 8.73244 11.1883 9.68618 10.3933L13.4798 14.1869C13.675 14.3821 13.9916 14.3821 14.1869 14.1869C14.3821 13.9916 14.3821 13.675 14.1869 13.4798L10.3933 9.68618C11.1883 8.73244 11.6667 7.5054 11.6667 6.16666C11.6667 3.12909 9.20422 0.666656 6.16666 0.666656ZM1.66666 6.16666C1.66666 3.68138 3.68138 1.66666 6.16666 1.66666C8.65194 1.66666 10.6667 3.68138 10.6667 6.16666C10.6667 8.65194 8.65194 10.6667 6.16666 10.6667C3.68138 10.6667 1.66666 8.65194 1.66666 6.16666Z"
+                fill="#898E9A"
+              />
+            </svg>
+          </div>
+          <input
+            class="sc-dlnjwi fRoYwN"
+            placeholder="Search for a movie"
+          />
+        </div>
+      </header>
+      <h3
+        class="sc-kEqXSa sc-iemWCZ czRZWT krnxPw"
+      >
+        Most Recent Movies
+      </h3>
+      <div
+        class="sc-hHEiqL bPSOgg"
+      >
+        <div
+          class="sc-hKFxyN fvuAxH"
+        />
+      </div>
+    </div>
+    <div />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

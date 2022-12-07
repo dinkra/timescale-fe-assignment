@@ -13,7 +13,7 @@ const StyledIcon = styled.div`
 
 const StyledInput = styled.input`
   box-sizing: border-box;
-  width: 100%;
+  width: 180px;
   padding: 10px;
   border: solid 1px ${({ theme }) => theme.navy500};
   border-radius: 2px;
