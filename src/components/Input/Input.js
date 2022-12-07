@@ -1,14 +1,14 @@
 import styled from 'styled-components';
-import search from '../../theme/svgs/search'
+import search from '../../theme/svgs/search';
 
 const Wrapper = styled.div`
-    position: relative;
+  position: relative;
 `;
 
 const StyledIcon = styled.div`
-    position: absolute;
-    top: 10px;
-    left: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 `;
 
 const StyledInput = styled.input`
@@ -25,22 +25,23 @@ const StyledInput = styled.input`
   cursor: text;
 
   ::placeholder {
-    color: ${p => p.theme.navy600};
+    color: ${(p) => p.theme.navy600};
   }
 
   &:focus {
     transition: 0.2s linear;
-    border-color: ${p => p.theme.navy600};
-    box-shadow: 0 0 2px ${p => p.theme.navy600} inset;
+    border-color: ${(p) => p.theme.navy600};
+    box-shadow: 0 0 2px ${(p) => p.theme.navy600} inset;
   }
-  
+
   ${({ hasIcon }) => hasIcon && 'padding-left: 34px;'}
 `;
 
-const Input = props =>
-    <Wrapper>
-        {props.hasIcon && <StyledIcon>{search}</StyledIcon>}
-        <StyledInput {...props} />
-    </Wrapper>;
+const Input = (props) => (
+  <Wrapper>
+    {props.hasIcon && <StyledIcon>{search}</StyledIcon>}
+    <StyledInput {...props} />
+  </Wrapper>
+);
 
 export default Input;

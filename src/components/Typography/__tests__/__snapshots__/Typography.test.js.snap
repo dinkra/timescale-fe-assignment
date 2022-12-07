@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <h3
-        class="sc-bdnxRM ibLlrk"
+        class="sc-bdnxRM fLALWX"
       >
         Header 3
       </h3>
@@ -14,7 +14,7 @@ Object {
   </body>,
   "container": <div>
     <h3
-      class="sc-bdnxRM ibLlrk"
+      class="sc-bdnxRM fLALWX"
     >
       Header 3
     </h3>
@@ -79,14 +79,14 @@ Object {
   "baseElement": <body>
     <div>
       <h3
-        class="sc-bdnxRM ibLlrk"
+        class="sc-bdnxRM fLALWX"
       >
         Header 3
       </h3>
     </div>
     <div>
       <h4
-        class="sc-gtsrHT eaKxZJ"
+        class="sc-gtsrHT jXqUXp"
       >
         Header 4
       </h4>
@@ -94,7 +94,7 @@ Object {
   </body>,
   "container": <div>
     <h4
-      class="sc-gtsrHT eaKxZJ"
+      class="sc-gtsrHT jXqUXp"
     >
       Header 4
     </h4>
@@ -159,21 +159,21 @@ Object {
   "baseElement": <body>
     <div>
       <h3
-        class="sc-bdnxRM ibLlrk"
+        class="sc-bdnxRM fLALWX"
       >
         Header 3
       </h3>
     </div>
     <div>
       <h4
-        class="sc-gtsrHT eaKxZJ"
+        class="sc-gtsrHT jXqUXp"
       >
         Header 4
       </h4>
     </div>
     <div>
       <div
-        class="sc-dlnjwi iIcyp"
+        class="sc-dlnjwi cJhkSh"
       >
         Body
       </div>
@@ -181,7 +181,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-dlnjwi iIcyp"
+      class="sc-dlnjwi cJhkSh"
     >
       Body
     </div>

@@ -6,10 +6,10 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdnxRM jaBgCn"
+        class="sc-bdnxRM kVsjvj"
       >
         <input
-          class="sc-dlnjwi gQNjWJ"
+          class="sc-dlnjwi gxwLMR"
           placeholder="Type something here"
         />
       </div>
@@ -17,10 +17,10 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bdnxRM jaBgCn"
+      class="sc-bdnxRM kVsjvj"
     >
       <input
-        class="sc-dlnjwi gQNjWJ"
+        class="sc-dlnjwi gxwLMR"
         placeholder="Type something here"
       />
     </div>
@@ -85,10 +85,10 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdnxRM jaBgCn"
+        class="sc-bdnxRM kVsjvj"
       >
         <div
-          class="sc-gtsrHT gtPaqp"
+          class="sc-gtsrHT dClIzB"
         >
           <svg
             fill="none"
@@ -104,7 +104,7 @@ Object {
           </svg>
         </div>
         <input
-          class="sc-dlnjwi cVaKhU"
+          class="sc-dlnjwi ezrXGk"
           placeholder="Type something here"
         />
       </div>
@@ -112,10 +112,10 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bdnxRM jaBgCn"
+      class="sc-bdnxRM kVsjvj"
     >
       <div
-        class="sc-gtsrHT gtPaqp"
+        class="sc-gtsrHT dClIzB"
       >
         <svg
           fill="none"
@@ -131,7 +131,7 @@ Object {
         </svg>
       </div>
       <input
-        class="sc-dlnjwi cVaKhU"
+        class="sc-dlnjwi ezrXGk"
         placeholder="Type something here"
       />
     </div>

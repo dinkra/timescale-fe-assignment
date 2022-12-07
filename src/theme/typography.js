@@ -9,6 +9,7 @@ const typography = {
   fontSizeSmall: `${12 / 16}rem`,
   fontSizeNormal: `${14 / 16}rem`,
   fontSizeLarge: `${18 / 16}rem`,
+  fontSizeXLarge: `${24 / 16}rem`
 };
 
 export default typography;

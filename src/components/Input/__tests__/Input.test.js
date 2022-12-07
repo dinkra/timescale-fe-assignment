@@ -16,12 +16,7 @@ describe('Input', () => {
     const onChangeMock = jest.fn();
 
     const { getByDisplayValue } = render(
-      <Input
-        id="name"
-        placeholder="Type something here"
-        onChange={onChangeMock}
-        value="value"
-      />
+      <Input id="name" placeholder="Type something here" onChange={onChangeMock} value="value" />
     );
     const input = getByDisplayValue(/value/i);
     fireEvent.change(input, { target: { value: 'new value' } });

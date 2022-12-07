@@ -1,5 +1,12 @@
 import styled from 'styled-components';
 
+// hooks
+import useToggleVisibility from '../../hooks/useToggleVisibility';
+
+// components
+import { Modal, MovieDetails } from '../../components';
+
+// styles
 const StyledCard = styled.div`
   position: relative;
   flex: 1 0 100%;
@@ -61,15 +68,26 @@ const StyledTitle = styled.div`
 `;
 
 const MovieCard = ({ movie }) => {
+  const { isVisible, toggleVisibility } = useToggleVisibility();
+
+  const handleClick = () => {
+    toggleVisibility();
+  };
+
   const imgPath = movie.poster_path
     ? `https://image.tmdb.org/t/p/original/${movie.poster_path}`
     : 'https://via.placeholder.com/500x750?text=No Image';
   return (
-    <StyledCard>
-      <StyledRating data-testid="movie-rating">{movie.vote_average}</StyledRating>
-      <StyledPoster data-testid="movie-img" imgPath={imgPath} />
-      <StyledTitle data-testid="movie-title">{movie.title}</StyledTitle>
-    </StyledCard>
+    <>
+      <StyledCard onClick={handleClick}>
+        <StyledRating data-testid="movie-rating">{movie.vote_average}</StyledRating>
+        <StyledPoster data-testid="movie-img" imgPath={imgPath} />
+        <StyledTitle data-testid="movie-title">{movie.title}</StyledTitle>
+      </StyledCard>
+      <Modal isVisible={isVisible} toggleVisibility={toggleVisibility}>
+        <MovieDetails movie={movie} imgPath={imgPath} />
+      </Modal>
+    </>
   );
 };
 
