@@ -46,7 +46,6 @@ const StyledBody = styled(Body)`
 `;
 
 const MovieDetails = ({ movie, imgPath }) => {
-  console.log(movie);
   return (
     <div>
       <StyledHeader>{movie.title}</StyledHeader>
