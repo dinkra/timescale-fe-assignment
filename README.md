@@ -1,3 +1,34 @@
+# Technical assignment for Timescale
+
+The Movie DB.
+
+# How to build and run locally
+
+Please, check your node version. On the latest version some packages may throw an error.
+Version v16.13.2 works for sure.
+
+Install **Yarn**:
+```bash
+yarn install
+```
+
+Copy .env.sample to .env.local and add your REACT_APP_MOVIE_DB_API_KEY. Without that key you won't be able to access api.
+
+Run: 
+```bash
+yarn start
+```
+to start the application locally.
+
+The application is available on http://localhost:3000 by default.
+
+# How to test application
+
+To run tests: 
+```bash
+yarn test
+```
+
 # Timescale Frontend Interview Assignment
 
 Thank you for taking the time to apply for a front end position at Timescale!
