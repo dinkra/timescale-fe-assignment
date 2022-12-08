@@ -1,4 +1,3 @@
-import React from 'react';
 import { render, fireEvent, screen } from '../../../tools/renderWithProviders';
 
 import Modal from '../';

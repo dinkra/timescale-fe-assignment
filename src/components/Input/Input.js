@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import search from '../../theme/svgs/search';
 
-const Wrapper = styled.div`
+const StyledWrapper = styled.div`
   position: relative;
 `;
 
@@ -38,10 +38,10 @@ const StyledInput = styled.input`
 `;
 
 const Input = (props) => (
-  <Wrapper>
+  <StyledWrapper>
     {props.hasIcon && <StyledIcon>{search}</StyledIcon>}
     <StyledInput {...props} />
-  </Wrapper>
+  </StyledWrapper>
 );
 
 export default Input;

@@ -21,8 +21,6 @@ const StyledImg = styled.img`
   height: fit-content;
 `;
 
-const StyledDescription = styled.div``;
-
 const StyledBody = styled(Body)`
   margin-bottom: 16px;
 `;
@@ -33,7 +31,7 @@ const MovieDetails = ({ movie, imgPath }) => {
       <StyledHeader>{movie.title}</StyledHeader>
       <StyledWrapper>
         <StyledImg src={imgPath} />
-        <StyledDescription>
+        <div>
           <StyledBody>
             <strong>Release date:</strong> {formatDate(movie.release_date)}
           </StyledBody>
@@ -41,7 +39,7 @@ const MovieDetails = ({ movie, imgPath }) => {
           <Body>
             <strong>{movie.vote_average}</strong> / 10 ({movie.vote_count} total votes)
           </Body>
-        </StyledDescription>
+        </div>
       </StyledWrapper>
     </div>
   );
